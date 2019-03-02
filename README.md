@@ -14,3 +14,12 @@ Equalized Image:
 
 ![eq_im](https://user-images.githubusercontent.com/33607030/53680155-d2971100-3cdf-11e9-9ecc-f82f278ac4aa.png)
 
+
+
+Quantized Images:
+
+Quantize the image to 3 intensities:
+
+
+
+Quantize the image to 5 intensities:
