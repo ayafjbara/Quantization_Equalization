@@ -139,12 +139,3 @@ def segmtents_quantization(bin_edges, hist, hist_cum, n_iter, n_quant, pixInSegm
         if np.array_equal(zArr, curZ):
             break
     return error, qArr, zArr
-
-
-im = read_image("monkey.jpg", 1)
-# imq, err = quantize(im, 5, 5)
-imq,h1,h2=histogram_equalize(im)
-plt.imshow(im, cmap="gray")
-plt.show()
-plt.imshow(imq, cmap="gray")
-plt.show()
